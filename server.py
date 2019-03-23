@@ -10,7 +10,7 @@ app = Bottle(__name__)
 @app.route('/')
 def root():
     
-    return static_file('index.html', root='templates)
+    return static_file('index.html', root='templates')
 
 
 # Static Routes
