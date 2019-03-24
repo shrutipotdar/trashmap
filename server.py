@@ -12,6 +12,10 @@ def root():
     
     return static_file('index.html', root='templates')
 
+@app.route('/index1')
+def index1():
+    return static_file('index1.html', root='templates')
+
 
 # Static Routes
 @app.route('/<filename:re:.*\.html>')
