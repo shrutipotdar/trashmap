@@ -12,9 +12,14 @@ def root():
     
     return static_file('index.html', root='templates')
 
-@app.route('/index1')
+@app.route('/index')
 def index1():
     return static_file('index1.html', root='templates')
+
+@app.route('/index1')
+def index1():
+    return static_file('index2.html', root='templates')
+
 
 
 # Static Routes
