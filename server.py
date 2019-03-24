@@ -17,7 +17,7 @@ def index1():
     return static_file('index1.html', root='templates')
 
 @app.route('/index2')
-def index1():
+def index2():
     return static_file('index2.html', root='templates')
 
 
